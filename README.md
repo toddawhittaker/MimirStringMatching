@@ -19,11 +19,10 @@ for the problem
 1. Paste the following test script into the Bash script area:  
 ```bash
 # To use this script:
-#   Add "Optional" files containing your test cases
-#   (file names must macth ".*Test.java$" regex) and
-#   any other jar files or java files you want to compile
-#   or include in the classpath. You could also wget
-#   those file from a github source.
+#   Add the "expected.csv" file containing your answers to
+#   the "Files (optional)" section. Name the student starter
+#   file "answer.txt" and number it the same as the first
+#   column in your .csv file.
 
 wget -q https://raw.githubusercontent.com/toddawhittaker/MimirStringMatching/master/mimir_string_matching.py
 /usr/bin/python3.6 mimir_string_matching.py
