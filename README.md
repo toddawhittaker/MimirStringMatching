@@ -56,3 +56,6 @@ each line. That's how the student answers are correlated to the expected ones. F
 you can create an arbitrarily long list of accepted answers for each prefix (these are
 case insensitive). That's useful for things like true/false answers where you'd accept the
 word or the letter.
+
+You may also want to make the test case visibility "Fully Hidden to Students" to hide
+the answers from being shown on submission.
